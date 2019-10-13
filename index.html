@@ -32,6 +32,10 @@ body, html {
     background: black;
     padding: 10px;
 }
+
+.smaller{
+    font-size: 16px;
+}
 </style>
 <body>
 
@@ -56,7 +60,7 @@ body, html {
 <!-- Header with image -->
 <header class="bgimg w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">Manchester, MI</span>
+    <span class="w3-tag">Based in Manchester, MI</span>
   </div>
   <div class="w3-display-middle w3-center">
     <span class="w3-text blue" style="font-size:120px">Turbo's<br>Garage</span>
@@ -90,31 +94,37 @@ body, html {
   
     <div class="w3-row w3-center w3-card w3-padding">
       <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-        <div class="w3-col s6 tablink">Eat</div>
+        <div class="w3-col s6 tablink">What We Offer</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+      <!-- <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
         <div class="w3-col s6 tablink">Drink</div>
-      </a>
+      </a> -->
     </div>
 
     <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Bread Basket</h5>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+      <h5>Basic Reprogramming Service- $30 (Return shipping included!)</h5>
+      <p class="w3-text-grey"><b>Mix and match any of the services below for one flat rate!</b></p>
+      <p class="w3-text-grey smaller">Speedometer Calibration - Recalibrate your speedometer for changes in tire size and rear end gear ratio. Please include all relevant information such as original tire size/gear ratio, current tire size/gear ratio, and if possible, actual speedometer discrepancy. </p>
+      <p class="w3-text-grey smaller">VATS security system disable- Disable the stock Vehicle Anti-Theft System (VATS, or PASS-Key). This system will disable the fuel pump and starter solenoid if it detects the wrong ignition key. However, worn ignition switches and keys, as well as wiring issues, can cause this system to malfunction, potentially leaving you stranded. Deleting this system from your pcm will render the system useless, and incapable of interfering with your car’s engine. </p>
+      <p class="w3-text-grey smaller">Cooling Fan Temperatures- Command your cooling fans to turn on at a lower temperature (please specify). Turning fans on earlier can help prevent overheating, better A/C performance, and lower engine temperatures in traffic. </p>
+      <p class="w3-text-grey smaller">Diagnostic Codes- Disable diagnostic codes from displaying on dash. <b> Note: this will only keep the check engine light from turning on, and not as a repair measure. </b></p>
+      <p class="w3-text-grey smaller">Traction Control - Disable traction control (F and D bodies). Use at own risk!</p>
+      <p class="w3-text-grey">Have something else in mind? Please contact us with your needs!</p> <br>
+
+      <h5>Can’t afford downtime? Try our PCM Exchange Service!</h5>
+      <p class="w3-text-grey">$30+$90 core charge (refundable)</p>
+      <p class="w3-text-grey">How it works:</p>
+      <p class="w3-text-grey smaller">Contact with your needs. If eligible, we will program a PCM to your specifications, and ship directly to you. Once you swap PCM’s, simply mail back your original PCM. Once we have received a good working unit, we will refund your core charge. It’s that simple!</p>
+      <p class="w3-text-grey">Note: Not all cars/tunes eligible. Please contact to see if your car is eligible!</p><br>
     
-      <h5>Honey Almond Granola with Fruits</h5>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+      <h5>Shipping</h5>
+      <p class="w3-text-grey">Customer is responsible for shipping costs to our facility. Return shipping is included in your programming price (Continental US only)!</p><br>
     
-      <h5>Belgian Waffle</h5>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
-    
-      <h5>Scrambled eggs</h5>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-    
-      <h5>Blueberry Pancakes</h5>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+      <h5>Other services available, please contact us at <a href="mailto: TurbosGarageLLC@gmail.com">TurbosGarageLLC@gmail.com</a></h5>
+      
     </div>
 
-    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+    <!-- <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
       <h5>Coffee</h5>
       <p class="w3-text-grey">Regular coffee 2.50</p><br>
     
@@ -129,7 +139,7 @@ body, html {
     
       <h5>Soda</h5>
       <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
-    </div>  
+    </div>   -->
     <!-- <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;"> -->
   </div>
 </div>
